@@ -8,7 +8,7 @@ import os
 
 import boto3
 from PIL import Image, ImageDraw
-from utilities.utility import IMG_PATH
+from utility import IMG_PATH
 
 
 # Variables Declarations
