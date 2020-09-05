@@ -14,9 +14,11 @@ This repo implements Amazon Web Services (AWS) textract api to extraact raw text
 - Add an image of the document you want to extract informations from, to data folder.
 
 - Change the **aws credentials** in **aws_api_call.py** file
-  > aws_access_key_id='XXXXXXXXXXXX' #your aws key
-  > aws_secret_access_key='XXXX', #your aws secret key
-  > region_name='XXXX', #region of your aws account
+  >aws_access_key_id='XXXXXXXXXXXX' #your aws key
+  
+  >aws_secret_access_key='XXXX', #your aws secret key
+  
+  >region_name='XXXX', #region of your aws account
 
 - Change name of the file in **main.py**.
   > aws = AwsTextExtraction("dummy.JPG", "dev") # Change your image name.
