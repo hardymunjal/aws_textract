@@ -4,9 +4,9 @@ This repo implements Amazon Web Services (AWS) textract api to extraact raw text
 
 ### ✍ About files
 
-- [aws_api_call.py](https://github.com/hardy8059/aws_textract/blob/master/aws_api_call.py) - Implements the amazon web service API call as a class.
-- [main.py](https://github.com/hardy8059/aws_textract/blob/master/main.py) - Calls the class from aws_api_call.py and calls the method to run the api.
-- [utility.py](https://github.com/hardy8059/aws_textract/blob/master/utility.py) - Implements common methods like getting paths to different files and folders.
+- [aws_api_call.py](https://github.com/hardymunjal/aws_textract/blob/master/aws_api_call.py) - Implements the amazon web service API call as a class.
+- [main.py](https://github.com/hardymunjal/aws_textract/blob/master/main.py) - Calls the class from aws_api_call.py and calls the method to run the api.
+- [utility.py](https://github.com/hardymunjal/aws_textract/blob/master/utility.py) - Implements common methods like getting paths to different files and folders.
 
 ### 🔢 Steps to run the project:
 - Create a **data** folder in the project root directoy.
